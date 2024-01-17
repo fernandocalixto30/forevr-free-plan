@@ -1,0 +1,89 @@
+body{
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+form{
+
+    margin:20px ;
+}
+label{
+    display: block;
+  
+}
+ .input-radio{
+    padding: 10px 20px;
+  
+
+ }
+.input-radio[type="submit"]{
+    background: rgb(32, 204, 13); 
+    padding: 1vh ;
+    margin-top: 15px;
+    border-radius: 5px;
+    
+}
+
+#submitButton {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#submitButton:hover {
+    background-color: rgb(4, 51, 18);
+}
+
+#submitButton:active {
+    background-color: rgb(148, 16, 16);
+}
+.espaço{
+    margin-top: 5vh;
+}
+#parte3{
+    display: flex;
+    height: 100vh;
+    @media screen and (max-width: 768px) {
+          flex-direction: column
+      }
+}
+.parte2{
+justify-content: center;
+ margin-top: 14vh;
+    flex-direction:row;
+ 
+   
+ 
+}
+.container{
+   background: rgba(11, 160, 168, 0.263);
+flex: 1;
+
+   
+} 
+.radio-container{
+display: flex;
+justify-content: space-between;
+white-space: nowrap;
+}
+.coluna2{
+
+}
+.agree-text{
+   
+}
+.text2{
+    font-size: 20px;
+    text-decoration: dashed;
+}
+ul {
+    list-style-type: disc;
+ 
+  }
+  .input-text{
+    padding: 4px 10px;
+  }
+ .container5{
+    flex: 1;
+ }
