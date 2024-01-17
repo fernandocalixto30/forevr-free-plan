@@ -1,89 +1,87 @@
-body{
-    font-family: arial,sans-serif;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
   
-}
-form{
-
-    margin:20px ;
-}
-label{
-    display: block;
-  
-}
- .input-radio{
-    padding: 10px 20px;
-  
-
- }
-.input-radio[type="submit"]{
-    background: rgb(32, 204, 13); 
-    padding: 1vh ;
-    margin-top: 15px;
-    border-radius: 5px;
-    
-}
-
-#submitButton {
-    padding: 10px;
-    cursor: pointer;
-}
-
-#submitButton:hover {
-    background-color: rgb(4, 51, 18);
-}
-
-#submitButton:active {
-    background-color: rgb(148, 16, 16);
-}
-.espaço{
-    margin-top: 5vh;
-}
-#parte3{
+  .main-container {
     display: flex;
+    flex-direction: column;
     height: 100vh;
-    @media screen and (max-width: 768px) {
-          flex-direction: column
-      }
-}
-.parte2{
-justify-content: center;
- margin-top: 14vh;
-    flex-direction:row;
- 
-   
- 
-}
-.container{
-   background: rgba(11, 160, 168, 0.263);
-flex: 1;
-
-   
-} 
-.radio-container{
-display: flex;
-justify-content: space-between;
-white-space: nowrap;
-}
-.coluna2{
-
-}
-.agree-text{
-   
-}
-.text2{
-    font-size: 20px;
-    text-decoration: dashed;
-}
-ul {
-    list-style-type: disc;
- 
+  
+    @media screen and (min-width: 768px) {
+      height: 100%;
+      flex-direction: row;
+    }
   }
-  .input-text{
-    padding: 4px 10px;
-  }
- .container5{
+  
+  .signup-container,
+  .features-container {
     flex: 1;
- }
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    margin: 20px;
+  }
+  
+  .form-header {
+    text-align: center;
+  }
+  
+  .form-fields {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .radio-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .agree-text {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  #submitButton {
+    background: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #submitButton:hover {
+    background-color: #45a049;
+  }
+  
+  #submitButton:active {
+    background-color: #398439;
+  }
+  
+  .features-container {
+    background: rgba(11, 160, 168, 0.05);
+  }
+  

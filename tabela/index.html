@@ -1,110 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>forevr free plan</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div id="parte3">
-        <div class="container5">
-       <form >
-        <div>
-          <h1 style="white-space: nowrap">
-            Get started with a Forever fee plan
-          </h1>
-          <p style="white-space: nowrap">
-            sign up in seconds. No credit card required.
-          </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>7-Day Free Trial</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="main-container">
+    <div class="signup-container">
+      <form>
+        <div class="form-header">
+          <h1>Start Your 7-Day Free Trial</h1>
+          <p>No credit card required</p>
         </div>
 
-        <div>
-          <div>
-            <label for="CompanyName" class="espaço"
-              >Conpany or Organization</label
-            >
-            <input class="input-text" type="text" id="CompaNyname" required />
+        <div class="form-fields">
+          <div class="form-group">
+            <label for="companyName">Company or Organization</label>
+            <input class="input-text" type="text" id="companyName" required />
           </div>
 
-          <div>
-            <label for="name">Name</label>
+          <div class="form-group">
+            <label for="name">Your Name</label>
             <input class="input-text" type="text" id="name" required />
           </div>
 
-          <div>
-            <label for="">Email address</label>
-            <input class="input-text"  type="email" id="email" required />
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input class="input-text" type="email" id="email" required />
           </div>
-          <div>
-            <label for="">Password</label>
+
+          <div class="form-group">
+            <label for="password">Create Password</label>
             <input class="input-text" type="password" id="password" required />
           </div>
         </div>
 
         <div class="radio-container">
-          <div>
-            <label for="lowercase"
-              ><input type="radio" name="radio-container" class="input-radio" id="lowercase" />one
-              lowercase character</label
-            >
-            <label for="number"
-              ><input type="radio" name="radio-container" class="input-radio" id="number" />one
-              Number</label
-            >
+          <div class="radio-group">
+            <label for="lowercase">
+              <input type="radio" name="radio-container" class="input-radio" id="lowercase" />
+              One lowercase character
+            </label>
+
+            <label for="number">
+              <input type="radio" name="radio-container" class="input-radio" id="number" />
+              One number
+            </label>
           </div>
 
-          <div class="coluna2">
-            <label for="uppercase"
-              ><input type="radio" name="radio-container" class="input-radio" id="uppercase" />one
-              uppercase character</label
-            >
-            <label for="minimum8"
-              ><input type="radio" name="radio-container" class="input-radio" id="minimum8" />8
-              character minimum</label
-            >
+          <div class="radio-group">
+            <label for="uppercase">
+              <input type="radio" name="radio-container" class="input-radio" id="uppercase" />
+              One uppercase character
+            </label>
+
+            <label for="minimum8">
+              <input type="radio" name="radio-container" class="input-radio" id="minimum8" />
+              8 characters minimum
+            </label>
           </div>
         </div>
 
-        <div class="agree-text" style="white-space: nowrap">
+        <div class="agree-text">
           By clicking, you agree to
           <a href="#" target="_blank">Terms of Use</a>,
-          <a href="#" target="_blank">Privacy Policy</a> and
+          <a href="#" target="_blank">Privacy Policy</a>, and
           <a href="#" target="_blank">Anti-Spam Policy</a>.
-          <div id="buttonContainer">
-            <input type="submit" value="Create My account" id="submitButton" />
-          </div>
+        </div>
+
+        <div class="button-container">
+          <input type="submit" value="Start Free Trial" id="submitButton" />
         </div>
       </form>
     </div>
 
-      <div class="container">
-        <div class="parte2">
-          <form>
-            <h2 style="white-space: nowrap">
-              Try Advanced features for 30 days
-            </h2>
-            <p style="white-space: nowrap; margin: 5h">
-              Your 30-day trial of Advanced features includes:
-            </p>
-            <ul>
-              <li class="text2">Access to premium features</li>
-              <li>
-                Live Chat, template library, auto resend, promotion pop-ups, Al
-                writing assistant and more
-              </li>
-              <li class="text2">Access to main features</li>
-              <li>Email automation, landing pages, website builder and more</li>
-              <li class="text2">Up to 1,000 subscribers</li>
-              <li text2>◆ Send up to 12,000 emails per month</li>
-              <li text2>24/7 live chat support</li>
-            </ul>
+    <div class="features-container">
+      <form>
+        <h2>Unlock Advanced Features</h2>
+        <p>Your 7-day free trial includes:</p>
+        <ul>
+          <li>Access to premium features</li>
+          <li>Live Chat, template library, auto resend, promotion pop-ups, AI writing assistant, and more</li>
+          <li>Email automation, landing pages, website builder, and more</li>
+          <li>Up to 1,000 subscribers</li>
+          <li>Send up to 12,000 emails per month</li>
+          <li>24/7 live chat support</li>
+        </ul>
 
-            <p>Upgrade anytime</p>
-          </form>
-        </div>
-      </div>
+        <p>Upgrade anytime</p>
+      </form>
     </div>
-    <script src="./script.js"></script>
-  </body>
+  </div>
+  <script src="./script.js"></script>
+</body>
 </html>
